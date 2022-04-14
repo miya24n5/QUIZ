@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="questions.js" defer></script>
   <title>問題2 | Quiz</title>
 </head>
 <body>
@@ -17,11 +18,13 @@
         何回登場するでしょうか。
       </p>
       <h3>選択肢</h3>
-      <ol class="answers">
-        <li>0回</li>
-        <li>2回</li>
-        <li>6回</li>
-        <li>10回</li>
+      <!-- javaで使うdata-id -->
+      <ol class="answers" data-id="question2">
+        <!-- javaで使うdata-answer -->
+        <li data-answer="A">0回</li>
+        <li data-answer="B">2回</li>
+        <li data-answer="C">6回</li>
+        <li data-answer="D">10回</li>
       </ol>
     </div>
     <div id="section-correct-answer" class="section">

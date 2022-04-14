@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="questions.js" defer></script>
   <title>問題４ | Quiz</title>
 </head>
 <body>
@@ -17,17 +18,19 @@
         それは一体誰でしょう。(＊ボーカルとは限りません)
       </p>
       <h3>選択肢</h3>
-      <ol class="answers">
-        <li>Spear Rib(ドラムスのリブちゃん)</li>
-        <li>Kamikaze Boy(ベース＆コーラスのカミカゼ)</li>
-        <li>Jean-Ken Johnny(ギター＆ボーカル＆ラップのジャンケン)</li>
-        <li>Tokyo Tanaka(ボーカルのたなパイ)</li>
+      <!-- javaで使うdata-id -->
+      <ol class="answers" data-id="question4">
+        <!-- javaで使うdata-answer -->
+        <li data-answer="A">Spear Rib(ドラムスのリブちゃん)</li>
+        <li data-answer="B">Kamikaze Boy(ベース＆コーラスのカミカゼ)</li>
+        <li data-answer="C">Jean-Ken Johnny(ギター＆ボーカル＆ラップのジャンケン)</li>
+        <li data-answer="D">Tokyo Tanaka(ボーカルのたなパイ)</li>
       </ol>
     </div>
     <div id="section-correct-answer" class="section">
       <h2>答え</h2>
       <p>
-        <span id="correct-answer">３番のJean-ken johnny(ジャンケンちゃん)でした。</span><br>
+        <span id="correct-answer">CのJean-ken johnny(ジャンケンちゃん)でした。</span><br>
         ライブに行くと円盤やテレビでは見れないお顔が拝見できます。<br>
         ただしお顔が黒塗りされているので最前列付近にいないとみにくいです。<br>
         気になる方はぜひライブへ、GO！！！<br>

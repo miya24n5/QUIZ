@@ -43,7 +43,7 @@ div#section-correct-answer {
 #correct-answer {
   /* 答えの文字のみを太くする */
   font-weight: bold;
-  color: #f05959;
+  /* color: #f05959; */
 }
 
 #main {
